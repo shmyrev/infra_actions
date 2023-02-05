@@ -34,7 +34,7 @@ jobs:
         # запуск проверки проекта по flake8
         python -m flake8
 
-[flake8]
+on: [flake8]
 ignore =
     W503,
     F811
